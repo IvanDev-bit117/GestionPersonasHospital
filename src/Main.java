@@ -22,5 +22,16 @@ public static void main(String[] args) {
         Paciente1.medicamento ="Azitromicina y Doxiciclina";
         Paciente1.recibirtratamiento();
     }
+    //Objeto Enfermero
+    Enfermero Enfermero1 =new Enfermero();{
+        Enfermero1.nombre ="Luisa Fernandez";
+        Enfermero1.documento =1012648796;
+        Enfermero1.edad =26;
+        Enfermero1.turno ="Nocturno";
+        Enfermero1.area ="Urgencias y Emergencias";
+        Enfermero1.accion ="Tomar signos";
+
+        Enfermero1.tomarsignos();
+    }
 }
 
