@@ -5,7 +5,7 @@ public class Doctor extends Persona{
 
         System.out.println("\n ==Doctor==");
         System.out.println("Nombre: "+ nombre);
-        System.out.println("Numero de documento: " + documento + "/ Edad: "+ edad);
+        System.out.println("Numero de documento: " + documento + " / Edad: "+ edad);
         System.out.println("Especialidad: " + especialidad + " / Numero de licencia: "+ nitlicencia);
     }
 }

@@ -1,5 +1,6 @@
 public static void main(String[] args) {
     //Menu ejemplo
+    System.out.println("=======================================");
     System.out.printf("==Gestion Personas Hospital cruz roja==");
 
     //Objeto Doctor
@@ -20,6 +21,7 @@ public static void main(String[] args) {
         Paciente1.enfermedad="Gonorrea avanzada";
         Paciente1.afiliacion ="Vinculado";
         Paciente1.medicamento ="Azitromicina y Doxiciclina";
+
         Paciente1.recibirtratamiento();
     }
     //Objeto Enfermero
