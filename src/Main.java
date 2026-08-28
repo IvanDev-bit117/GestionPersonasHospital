@@ -1,16 +1,26 @@
 public static void main(String[] args) {
     //Menu ejemplo
-    System.out.println("==Gestion Personas Hospital cruz roja==");
+    System.out.printf("==Gestion Personas Hospital cruz roja==");
 
     //Objeto Doctor
     Doctor Doctor1 =new  Doctor();{
         Doctor1.nombre = "Jorge Ivan Castaneda Aguilar";
-        Doctor1.documento = 1014658468;
+        Doctor1.documento = 1014658469;
         Doctor1.edad = 34;
         Doctor1.especialidad = "Cardiologo";
         Doctor1.nitlicencia ="TP-458721";
 
         Doctor1.atenderPaciente();
+    }
+    //Objeto Paciente
+    Paciente Paciente1 =new Paciente();{
+        Paciente1.nombre ="Carlos España";
+        Paciente1.documento =1025144203;
+        Paciente1.edad =23;
+        Paciente1.enfermedad="Gonorrea avanzada";
+        Paciente1.afiliacion ="Vinculado";
+        Paciente1.medicamento ="Azitromicina y Doxiciclina";
+        Paciente1.recibirtratamiento();
     }
 }
 
